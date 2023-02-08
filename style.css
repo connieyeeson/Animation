@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    
+    background-color:rgb(205, 181, 150);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
+    overflow: hidden;
+}
+
+.box1 {
+    
+    /* background-color: aliceblue; */
+    width: 35rem;
+    font-size: 36px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color: aliceblue; */
+    position: relative;
+    animation-name: slide;
+    right: 80;
+    animation-duration: 5s;
+}
+
+@keyframes slide {
+    
+    from {right: -85%;}
+    to {right: 1%;} 
+
+    
+
+}
+
+.switching  {
+
+    background-color: #737b43;
+    padding: 0 7px;
+    border-bottom: 4px solid rgb(199, 151, 243);
+    border-radius: 0 0 10px 10px;
+   
+    
+}
+
+  
+  .image img {
+ 
+   height:400px;
+ 
+
+ }
+
+    p img { height: 40px; }
